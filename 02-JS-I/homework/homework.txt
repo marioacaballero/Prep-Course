@@ -1,0 +1,14 @@
+* Variables: Son todas aquellos valores u objetos que puedo colocar
+y me retornan algo
+
+* Strings: Son los textos
+
+* Funciones: Es lo que trabaja de acuerdo a lo que seteamos dentro. 
+Permite trabajar con variables. Hay dos tipos de funciones, de 
+expresiones y de declaraciones.
+
+* Declaraciones: son todas aquellas que hacen algo en el código pero 
+no me devuelven nada.
+
+* Valores Booleanos: Son los estados de verdadero o 
+falso (true or false).
