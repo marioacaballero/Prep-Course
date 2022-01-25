@@ -1,0 +1,14 @@
+h1{
+    color: blue;
+}
+h2{
+    color: lightgreen;
+}
+#secondDiv{
+    height: 500px;
+    width: 500px;
+    border: 5px solid lightgreen;
+}
+h3{
+    color: lightskyblue;
+}
