@@ -16,7 +16,7 @@ function crearUsuario() {
       this.password = opciones.password;
       }
 
-  Usuario.prototype.saludar = function (){
+  Usuario.prototype.saludar = function (){        //siempre con el .prototype puedo crear un nuevo método
     return 'Hola, mi nombre es ' + this.nombre;
   }
 
@@ -68,7 +68,7 @@ function agregarStringInvertida() {
       this.domicilio = domicilio
       }
 
-      detalle(){
+      detalle(){          //como en este caso todavía sigo dentro de la clase no es necesario el .prototype
         return {
           Nombre: this.nombre,
           Apellido: this.apellido,
@@ -82,7 +82,8 @@ function crearInstanciaPersona(nombre, apellido, edad, dir) {
   //Con esta función vamos a crear una nueva persona a partir de nuestro constructor de persona (creado en el ejercicio anterior)
   //Recibirá los valores "Juan", "Perez", 22, "Saavedra 123" para sus respectivas propiedades
   //Devolver la nueva persona creada
-  var NuevaPersona = new Persona('Juan', 'Perez', 22, 'Saavedra 123');
+  var NuevaPersona = new Persona('Juan', 'Perez', 22, 'Saavedra 123');    //con el new voy agregando los
+                                                                          //argumentos de la clase
 
   return NuevaPersona;
 
