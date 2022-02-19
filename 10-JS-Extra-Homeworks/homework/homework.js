@@ -64,6 +64,26 @@ function asAmirror(str) {
   //pero con cada una de sus palabras invertidas, como si fuera un espejo.
   //Ej: Recibe ---> "The Henry Challenge is close!" || Devuelve ---> "ehT yrneH egnellahC si !esolc"
   //Escribe tu código aquí
+
+  var str1 = str.split(' ');
+  var str2 = [];
+  
+  
+  for(let i=0; i<str1.length; i++){
+    str2.push(str1[i].split('').reverse().join(''));
+    }
+    
+  return str2.join(' ');
+
+  // otra forma de hacerlo es con
+
+  /* 
+  return str.split(" ").map(function(palabra){
+    return palabra.split("").reverse().join("");
+  }).join(" "); 
+  */
+
+  //de esta manera no se requiere crear una variable adicional
 } 
 
 
