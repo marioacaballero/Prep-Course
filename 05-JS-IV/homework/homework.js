@@ -8,9 +8,9 @@ function crearGato(nombre, edad) {
   // Tu código:
  Gato = {'nombre': nombre};
  Gato['edad']= edad;                                          //si uso bracket notation necesito las '';
- Gato["meow"]=function(){ return "Meow!"};
- 
- return Gato;
+ Gato["meow"]=function(){ return "Meow!"};                    // cuando no esta declarado (valor de entrada)
+                                                              
+ return Gato;                                                 
   
 
 }
@@ -21,8 +21,8 @@ function agregarPropiedad(objeto, property) {
   // Devuelve el objeto
   // NOTA: El nombre de la propiedad no es "propiedad", el nombre es el valor del argumento llamado "property" (una cadena/string)
   // Tu código:
-  objeto[property] = null
-  
+  objeto[property] = null         //cuando está declarada (valor de entrada), no necesito las '' en el
+                                  //bracket notation
   return objeto;
 }
 
