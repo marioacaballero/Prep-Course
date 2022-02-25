@@ -7,7 +7,7 @@ function crearGato(nombre, edad) {
   // Devuelve el objeto
   // Tu código:
  Gato = {'nombre': nombre};
- Gato['edad']= edad;
+ Gato['edad']= edad;                                          //si uso bracket notation necesito las '';
  Gato["meow"]=function(){ return "Meow!"};
  
  return Gato;
@@ -100,7 +100,7 @@ function verificarPassword(usuario, password) {
   // Devuelve "true" si coinciden
   // De lo contrario, devuelve "false"
   // // Tu código:
-  if (usuario.password === password) {
+  if (usuario.password === password) {                    // si uso el dot notation no necesito '';
     return true
   }
   else {
